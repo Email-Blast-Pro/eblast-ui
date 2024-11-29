@@ -1,0 +1,45 @@
+.form-component {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 10px 0;
+  font-family: Ubuntu, Arial, Helvetica, sans-serif;
+}
+label {
+  width: 100%;
+  text-align: left;
+}
+.input,
+input {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+input {
+  margin: 0;
+  padding: 0 0;
+  border: 0;
+  font-size: 16px;
+  background-color: transparent;
+}
+input:focus {
+  outline: none;
+}
+.input {
+  margin: 0 auto;
+  padding: 8px;
+  background-color: #ffffff;
+  border: solid 1px #cccccc;
+}
+.error {
+  border: 1px solid #ff0300;
+}
+
+.success {
+  border: 1px solid #049862;
+}

@@ -1,0 +1,49 @@
+button {
+  display: inline-flex;
+  margin: 0;
+  padding: 10px 20px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 3px;
+  background-color: var(--light-gray);
+}
+
+button.primary {
+  color: #ffffff;
+  background-color: var(--primary);
+}
+
+button.secondary {
+  color: #ffffff;
+  background-color: var(--secondary);
+}
+
+button.success {
+  color: #ffffff;
+  background-color: var(--success);
+}
+
+button.danger {
+  color: #ffffff;
+  background-color: var(--danger);
+}
+
+button.warning {
+  color: #000000;
+  background-color: var(--warning);
+}
+
+button.info {
+  color: #000000;
+  background-color: var(--info);
+}
+
+button.light {
+  color: #000000;
+  background-color: var(--light);
+}
+
+button.dark {
+  color: #ffffff;
+  background-color: var(--dark);
+}
