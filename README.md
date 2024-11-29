@@ -1,3 +1,3 @@
 # Email Blast Pro
 
-##### eBlast UI
+> eBlast UI
