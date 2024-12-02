@@ -4,13 +4,13 @@ export const Button = ({
   id,
   type = "button",
   label = "",
-  btn = "primary",
+  color = "primary",
   borderRadius,
 }) => {
   return (
     <div className="Button">
       <button
-        className={`button ${btn}`}
+        className={`button ${color}`}
         type={type}
         id={id}
         style={{ borderRadius }}

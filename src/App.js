@@ -18,74 +18,86 @@ function App() {
         <div className="button-example" style={{ margin: "20px 0" }}>
           <h3>Buttons</h3>
           <Button
-            btn="primary"
+            color="primary"
             id={"primary-button"}
             label="primary"
             borderRadius={"5px"}
           />
           <Button
-            btn="secondary"
+            color="secondary"
             label={"secondary"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="success"
+            color="success"
             label={"success"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="danger"
+            color="danger"
             label={"danger"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="warning"
+            color="warning"
             label={"warning"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="info"
+            color="info"
             label={"info"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="light"
+            color="light"
             label={"light"}
             type="button"
             borderRadius={"5px"}
           />
           <Button
-            btn="dark"
+            color="dark"
             label={"dark"}
             type="button"
             borderRadius={"5px"}
           />
         </div>
         <div className="button-example" style={{ margin: "20px 0" }}>
-          <Button btn="primary-outline" label="Primary" borderRadius={"5px"} />
+          <Button
+            color="primary-outline"
+            label="Primary"
+            borderRadius={"5px"}
+          />
 
           <Button
-            btn="secondary-outline"
+            color="secondary-outline"
             label="Secondary"
             borderRadius={"5px"}
           />
 
-          <Button btn="success-outline" label="Success" borderRadius={"5px"} />
+          <Button
+            color="success-outline"
+            label="Success"
+            borderRadius={"5px"}
+          />
 
-          <Button btn="danger-outline" label="Danger" borderRadius={"5px"} />
+          <Button color="danger-outline" label="Danger" borderRadius={"5px"} />
 
-          <Button btn="warning-outline" label="Warning" borderRadius={"5px"} />
+          <Button
+            color="warning-outline"
+            label="Warning"
+            borderRadius={"5px"}
+          />
 
-          <Button btn="info-outline" label="Info" borderRadius={"5px"} />
+          <Button color="info-outline" label="Info" borderRadius={"5px"} />
 
-          <Button btn="light-outline" label="light" borderRadius={"5px"} />
+          <Button color="light-outline" label="light" borderRadius={"5px"} />
 
-          <Button btn="dark-outline" label="dark" borderRadius={"5px"} />
+          <Button color="dark-outline" label="dark" borderRadius={"5px"} />
         </div>
       </div>
       <Footer>
