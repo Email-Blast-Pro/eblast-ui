@@ -1,13 +1,19 @@
 import "./App.css";
 import { Button } from "./components/button/button";
+import { Column } from "./components/column/column";
+import { Container } from "./components/container/container";
+import { Footer } from "./components/footer/footer";
+import { Header } from "./components/header/header";
 
 function App() {
   return (
     <div className="App">
-      <header className="header">
-        <h1>Header</h1>
-      </header>
-
+      <Header>
+        <div className="container">
+          <div className="column-6">left</div>
+          <div className="column-6">right</div>
+        </div>
+      </Header>
       <div className="content">
         <div className="button-example" style={{ margin: "20px 0" }}>
           <h3>Buttons</h3>
@@ -82,10 +88,16 @@ function App() {
           <Button btn="dark-outline" label="dark" borderRadius={"5px"} />
         </div>
       </div>
-
-      <footer>
-        <h6>Footer</h6>
-      </footer>
+      <Footer>
+        <Container>
+          <Column col="4">
+            <p>Hello</p>
+          </Column>
+          <Column col="8">
+            <p>World</p>
+          </Column>
+        </Container>
+      </Footer>
     </div>
   );
 }
