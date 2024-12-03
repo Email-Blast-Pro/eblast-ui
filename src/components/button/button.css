@@ -1,10 +1,14 @@
+.Button {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 0 15px;
+}
 button {
   display: inline-flex;
   margin: 0;
   padding: 10px 20px;
   border: 0;
   cursor: pointer;
-  border-radius: 3px;
   background-color: var(--light-gray);
 }
 
@@ -12,10 +16,21 @@ button.primary {
   color: #ffffff;
   background-color: var(--primary);
 }
+button.primary-outline {
+  color: var(--primary);
+  border: solid 1px var(--primary);
+  background-color: transparent;
+}
 
 button.secondary {
   color: #ffffff;
   background-color: var(--secondary);
+}
+
+button.secondary-outline {
+  color: var(--secondary);
+  border: solid 1px var(--secondary);
+  background-color: transparent;
 }
 
 button.success {
@@ -23,9 +38,21 @@ button.success {
   background-color: var(--success);
 }
 
+button.success-outline {
+  color: var(--success);
+  border: solid 1px var(--success);
+  background-color: transparent;
+}
+
 button.danger {
   color: #ffffff;
   background-color: var(--danger);
+}
+
+button.danger-outline {
+  color: var(--danger);
+  border: solid 1px var(--danger);
+  background-color: transparent;
 }
 
 button.warning {
@@ -33,9 +60,21 @@ button.warning {
   background-color: var(--warning);
 }
 
+button.warning-outline {
+  color: var(--warning);
+  border: solid 1px var(--warning);
+  background-color: transparent;
+}
+
 button.info {
   color: #000000;
   background-color: var(--info);
+}
+
+button.info-outline {
+  color: var(--info);
+  border: solid 1px var(--info);
+  background-color: transparent;
 }
 
 button.light {
@@ -43,7 +82,18 @@ button.light {
   background-color: var(--light);
 }
 
+button.light-outline {
+  color: var(--dark);
+  border: solid var(--light);
+  background-color: transparent;
+}
+
 button.dark {
   color: #ffffff;
   background-color: var(--dark);
+}
+button.dark-outline {
+  color: var(--dark);
+  border: solid 1px var(--dark);
+  background-color: transparent;
 }
