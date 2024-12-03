@@ -1,6 +1,6 @@
 # Button Component
 
-> Eblast UI Documentation
+> Eblast UI Button Documentation
 
 ## Overview
 
@@ -43,9 +43,13 @@ To use the `Button` component in your project, follow these steps:
 2. **Add the button to your UI:**
 
    ```jsx
-   <Button onClick={handleClick} color="primary" size="large">
-     Click Me
-   </Button>
+   <Button
+     onClick={(event) => handleClick(event)}
+     color="primary"
+     size="large"
+     label="Click Me"
+     custom={{ borderRadius: "5px" }}
+   />
    ```
 
 ### Button Component Props
@@ -65,6 +69,7 @@ To use the `Button` component in your project, follow these steps:
   label="Click Me"
   color="primary"
   size="large"
+  custom={{ borderRadius: "5px" }}
 />
 ```
 
