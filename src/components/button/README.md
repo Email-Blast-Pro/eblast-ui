@@ -22,9 +22,9 @@ Here’s a brief overview of the folder structure in this repository:
 ├── /src                      # Source code for components and assets
 │   ├── /components           # Reusable UI components (Button, etc.)
 │   ├   └── /button           # Reusable UI components (Button, etc.)
-│   │       └── button.js     # The Button component implementation
-│   │       └── button.css    # Styles for the Button component
-│   |       └── README.md     # Main README file
+│   │   |   └── button.js     # The Button component implementation
+│   │   |   └── button.css    # Styles for the Button component
+│   |   |   └── README.md     # Main README file
 │
 ├── package.json              # Project metadata and dependencies
 └── .gitignore                # Git ignore rules
