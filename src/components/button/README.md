@@ -50,18 +50,12 @@ To use the `Button` component in your project, follow these steps:
 
 ### Button Component Props
 
-| Prop Name | Type     | Description                                  | Default Value | Values                                                                                                                                                                                         |
-| --------- | -------- | -------------------------------------------- | ------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `onClick` | `func`   | Function to call when the button is clicked. | `null`        | `func`, `null`                                                                                                                                                                                 |
-| `color`   | `string` | Defines the button color and state           | primary       | primary, primary-outline, secondary, secondary-ouline, success, success-outline, danger, danger-outline, warning, warning-ouline, info, info-outline, light, light-outline, dark, dark-outline |
-
-<!-- | Prop Name  | Type     | Description                                                 | Default Value |
-| ---------- | -------- | ----------------------------------------------------------- | ------------- |
-| `onClick`  | `func`   | Function to call when the button is clicked.                | `null`        |
-| `color`    | `string` | Defines the button color (e.g., 'primary', 'secondary').    | `'primary'`   |
-| `size`     | `string` | Defines the button size (e.g., 'small', 'medium', 'large'). | `'medium'`    |
-| `disabled` | `bool`   | If true, disables the button.                               | `false`       |
-| `custom`   | `string` | Additional custom class for styling.                        | -->
+| Prop Name | Type     | Description                                                 | Default Value | Values                                                                                                                                                                                                                         |
+| --------- | -------- | ----------------------------------------------------------- | ------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| `onClick` | `func`   | Function to call when the button is clicked.                | `null`        | `func`, `null`                                                                                                                                                                                                                 |
+| `color`   | `string` | Defines the button color and state                          | `primary`     | `primary`, `primary-outline`, `secondary`, `secondary-ouline`, `success`, `success-outline`, `danger`, `danger-outline`, `warning`, `warning-ouline`, `info`, `info-outline`, `light`, `light-outline`, `dark`, `dark-outline` |
+| `size`    | `string` | Defines the button size (e.g., 'small', 'medium', 'large'). | `'medium'`    | `x-small`, `small`, `medium`, `large`, `x-large`                                                                                                                                                                               |
+| `custom`  | `object` | Defines a set of custom css properties                      | `{}`          | `{}`                                                                                                                                                                                                                           |
 
 ### Example
 
