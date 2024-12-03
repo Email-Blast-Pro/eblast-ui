@@ -4,7 +4,7 @@
 
 ## Overview
 
-Eblast UI is a component library for the Eblast platform. This repository contains reusable UI components, starting with the implementation of the Button component. The goal of the library is to create consistent, maintainable, and easily customizable UI elements that can be used across the Eblast platform.
+Eblast UI is a component library design system for the Eblast platform. This repository contains reusable UI components, starting with the implementation of the Button component. The goal of the library is to create consistent, maintainable, and easily customizable UI elements that can be used across the Eblast platform.
 
 The current branch, `issue-1-button-component`, focuses on the development of the Button component, which will serve as the foundation for other UI components.
 

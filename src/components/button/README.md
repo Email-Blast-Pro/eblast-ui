@@ -19,15 +19,15 @@ Here’s a brief overview of the folder structure in this repository:
 ```
 /eblast-ui
 │
-├── /src                   # Source code for components and assets
-│   ├── /components        # Reusable UI components (Button, etc.)
-│   ├── /button            # Reusable UI components (Button, etc.)
-│   │   └── button.js      # The Button component implementation
-│   │   └── button.css     # Styles for the Button component
-│   |   └── README.md      # Main README file
+├── /src                      # Source code for components and assets
+│   ├── /components           # Reusable UI components (Button, etc.)
+│   ├   └── /button           # Reusable UI components (Button, etc.)
+│   │       └── button.js     # The Button component implementation
+│   │       └── button.css    # Styles for the Button component
+│   |       └── README.md     # Main README file
 │
-├── package.json           # Project metadata and dependencies
-└── .gitignore             # Git ignore rules
+├── package.json              # Project metadata and dependencies
+└── .gitignore                # Git ignore rules
 ```
 
 ### Usage
@@ -80,7 +80,7 @@ This will render a blue button that is large-sized with the text "Click Me". Whe
 We welcome contributions to improve the Eblast UI component library. If you would like to contribute, please follow these steps:
 
 1. Fork the repository
-2. Create a new branch for your feature or bug fix
+2. Create a new branch for your feature or bug fix including the prefix `issue-[ISSUE Number]`
 3. Implement your changes
 4. Write tests (if applicable)
 5. Open a pull request to the main repository
