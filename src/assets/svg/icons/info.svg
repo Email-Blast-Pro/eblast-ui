@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="22px" height="22px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Icons/32px/Info</title>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Atoms/Light/General-Icons" transform="translate(-283, -1433)">
+            <g id="Icons/32px/Info" transform="translate(283, 1433)">
+                <path d="M29,16 C29,8.82029825 23.1797017,3 16,3 C8.82029825,3 3,8.82029825 3,16 C3,23.1797017 8.82029825,29 16,29 C23.1797017,29 29,23.1797017 29,16 Z M1,16 C1,7.71572875 7.71572875,1 16,1 C24.2842712,1 31,7.71572875 31,16 C31,24.2842712 24.2842712,31 16,31 C7.71572875,31 1,24.2842712 1,16 Z M14.9999999,15 L14.9999999,23 L16.9999999,23 L16.9999999,13 L11.9999999,13 L11.9999999,15 L14.9999999,15 Z M16.9999999,11 L16.9999999,9.00000002 L14.9999999,9.00000002 L14.9999999,11 L16.9999999,11 Z" id="Combined-Shape" fill="#252525"></path>
+                <path d="M0,0 L32,0 L32,32 L0,32 L0,0 Z" id="Path" stroke-opacity="0.01" stroke="#000000" stroke-width="0.01"></path>
+            </g>
+        </g>
+    </g>
+</svg>
