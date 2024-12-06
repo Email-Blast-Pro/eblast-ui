@@ -4,6 +4,7 @@ import { Column } from "./components/column/column";
 import { Container } from "./components/container/container";
 import { Footer } from "./components/footer/footer";
 import { Header } from "./components/header/header";
+import { Input } from "./components/input/input";
 
 function App() {
   return (
@@ -22,7 +23,6 @@ function App() {
             id={"primary-button"}
             label="primary"
             custom={{ borderRadius: "5px" }}
-            theme={{}}
           />
           <Button
             color="secondary"
@@ -117,16 +117,45 @@ function App() {
           />
         </div>
       </div>
-      <Footer>
-        <Container>
-          <Column col="4">
-            <p>Hello</p>
-          </Column>
-          <Column col="8">
-            <p>World</p>
-          </Column>
-        </Container>
-      </Footer>
+      <Container>
+        <Column col="6">
+          <Input
+            type="text"
+            placeholder="Example Input"
+            custom={{ borderRadius: "5px" }}
+            label={"First Name:"}
+          />
+        </Column>
+        <Column col="6">
+          <Input
+            type="text"
+            placeholder="Example Input"
+            custom={{ borderRadius: "5px" }}
+            label={"Last Name:"}
+          />
+        </Column>
+      </Container>
+
+      <Container>
+        <Column col="6">
+          <Input
+            type="text"
+            placeholder="Example Input"
+            custom={{ borderRadius: "5px" }}
+            label={"Phone"}
+          />
+        </Column>
+        <Column col="6">
+          <Input
+            type="text"
+            placeholder="Example Input"
+            custom={{ borderRadius: "5px" }}
+            label={"Email:"}
+          />
+        </Column>
+      </Container>
+
+      <Footer></Footer>
     </div>
   );
 }

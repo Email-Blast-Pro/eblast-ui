@@ -1,3 +1,10 @@
+.Input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 0 0;
+}
 .form-component {
   width: 100%;
   display: flex;
@@ -37,9 +44,9 @@ input:focus {
   border: solid 1px #cccccc;
 }
 .error {
-  border: 1px solid #ff0300;
+  border: 1px solid var(--danger);
 }
 
 .success {
-  border: 1px solid #049862;
+  border: 1px solid var(--success);
 }
